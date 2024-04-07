@@ -46,7 +46,7 @@ struct LoginPage {
       }
       .width("70%")
       .height(300)
-      .margin(260)
+      .margin({ top: 260 })
       .padding({ top: SizeConstant.SPACE_XL, bottom: SizeConstant.SPACE_XL })
       .backgroundColor(AppTheme.palette(this.themeType).commonBackground)
       .borderRadius(SizeConstant.RADIUS_L)
